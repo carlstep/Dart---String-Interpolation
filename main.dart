@@ -10,6 +10,12 @@ void main() {
     multiline
     string
     ''';
-        print("$multiLine");
+        print("$multiLine"); // Multi-line strings can be created using triple quotes (either single or double).
+    
+    String concatenated = 'This ''is ' '(kind ''of) '
+    'odd'
+    '...';
+        print('$concatenated'); // String concatenation is done simply by placing string literals next to each other without the + sign.
 }
+
 // expressions are embedded into strings using ${expression_name}. If the expression is an identifier, then omit the {}.
